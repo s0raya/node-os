@@ -1,6 +1,6 @@
 // systemInfo.js
-const { getOSInfo } = require('./osModule');
-const { getNetworkInfo } = require('./networkModule');
+const  getOSInfo  = require('./osModule.js');
+const  getNetworkInfo  = require('./networkModule.js');
 
 // Obtener información del sistema operativo
 const osInfo = getOSInfo();

@@ -1,5 +1,5 @@
 
-const os = require('os');
+const os = require('node:os');
 
 function getNetworkInfo() {
   const networkInfo = {};
@@ -21,4 +21,4 @@ function getNetworkInfo() {
   return networkInfo;
 }
 
-module.exports = {getNetworkInfo};
+module.exports = getNetworkInfo;

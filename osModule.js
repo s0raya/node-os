@@ -1,5 +1,5 @@
 
-const os = require('os');
+const os = require('node:os');
 
 function getOSInfo() {
   const osInfo = {
@@ -15,4 +15,4 @@ function getOSInfo() {
   return osInfo;
 }
 
-module.exports = {getOSInfo};
+module.exports = getOSInfo;
