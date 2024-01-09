@@ -1,0 +1,15 @@
+{
+  "name": "node-os",
+  "version": "1.0.0",
+  "description": "**Objetivo:**  Crear un programa en Node.js que imprima información sobre el sistema operativo y las interfaces de red, utilizando el patrón de diseño modular.",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/s0raya/node-os"
+  },
+  "author": "Soraya Alcobet",
+  "license": "ISC"
+}
