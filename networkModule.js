@@ -22,3 +22,20 @@ function getNetworkInfo() {
 }
 
 module.exports = getNetworkInfo;
+
+
+/************************ CLASE ****************************/
+
+function getInfoNetwork() {
+    const networkInfo = {};
+    const networkInterfaces = os.networkInterfaces();
+
+    Object.keys(networkInterfaces).forEach((element) => {
+        networkInfo[element] = networkInterfaces[element].map((interface) => ({
+            Familia: interface.family,
+            Dirección: interface.address,
+            Interno: interface.internal
+        }))
+    })
+    return networkInfo;
+}
